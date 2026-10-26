@@ -28,7 +28,7 @@ jobs:
     env:
       TARGET_BRANCH: master
       UPSTREAM_REPOSITORY: Prat011/awesome-claude-skills
-      UPSTREAM_BRANCH: master
+      UPSTREAM_BRANCH: main
     steps:
       - name: Check out fork history
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
